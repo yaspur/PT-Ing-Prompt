@@ -119,10 +119,10 @@ if __name__ == "__main__":
     
     agent = MultiAgentSystem()
     
-    with open('punto_8\prompt_no_CoT.txt', 'r', encoding='utf-8') as f:
+    with open('..\punto_8\prompt_no_CoT.txt', 'r', encoding='utf-8') as f:
         prompt_no_cot = f.read()
         
-    with open('punto_8\prompt_CoT.txt', 'r', encoding='utf-8') as f:
+    with open('..\punto_8\prompt_CoT.txt', 'r', encoding='utf-8') as f:
         prompt_cot = f.read()
         
     # Define el estado inicial
